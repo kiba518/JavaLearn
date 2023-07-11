@@ -1,12 +1,14 @@
 package com.example.demo;
 
 import lombok.extern.log4j.Log4j2;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.util.stream.Stream;
@@ -14,6 +16,8 @@ import java.util.stream.Stream;
 @SpringBootApplication
 @ComponentScan({"com.*"})
 @EnableSwagger2
+//@EnableTransactionManagement//开启事务，在service上使用@Transactional即可
+@MapperScan("com.example.demo.dao.mapper")
 public class DemoApplication {
 
     public static void main(String[] args) {
