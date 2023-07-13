@@ -10,4 +10,18 @@
     <select id="test3" resultType="com.example.demo.model.User" parameterType="Integer">
         select * from k_user where id=#{value}
     </select>
+    <select id="test4" resultType="com.example.demo.model.User">
+          select * from k_user where id=#{Id}
+    </select>
+    <select id="test5" resultType="com.example.demo.model.User">
+           select * from k_user where id=#{id} and name =#{name}
+    </select>
+    <select id="test6" resultType="com.example.demo.model.User">
+          select * from k_user where id=${id} and name ='${name}'
+    </select>
+   <select id="queryPageList" resultType="com.example.demo.model.User">
+        select * from k_user
+    </select>
+
+
 </mapper>
