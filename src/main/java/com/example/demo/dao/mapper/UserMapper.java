@@ -61,7 +61,7 @@ public interface UserMapper extends BaseMapper<User> {
      ${}:只能以${value}或${_parameter}获取
      */
 
-    List<User> queryPageList(Page<User> page, @Param("userId")String userId);
+    IPage<User> queryPageList(Page<User> page, @Param("userId")String userId);
 
 ////  	<!-- 查询消息记录 -->
 //	<select id="queryMessageList" resultMap="SysAnnouncement">

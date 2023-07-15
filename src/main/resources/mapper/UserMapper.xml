@@ -21,7 +21,22 @@
     </select>
    <select id="queryPageList" resultType="com.example.demo.model.User">
         select * from k_user
+       <if test="userId!=null">
+           where  id = #{userId}
+       </if>
     </select>
 
+<!--    <sql id = "entity">-->
+<!--        a.id,a.username,a.password,a.gender,a.age,a.create_time-->
+<!--    </sql>-->
+<!--    <select id="selectUserByGender" resultType="com.hyl.demo.entity.UserEntity">-->
+<!--        select <include refid="entity"/> from user a-->
+<!--        <where>-->
+<!--            <if test="gender != null">-->
+<!--                and a.gender = #{gender}-->
+<!--            </if>-->
+<!--        </where>-->
+<!--    </select>-->
+<!-- -->
 
 </mapper>

@@ -1,6 +1,6 @@
 package com.example.demo.model;
 
-import com.sun.istack.internal.NotNull;
+
 
 import lombok.Data;
 

@@ -91,9 +91,9 @@ public class UserService_Mapper implements IUserService_Mapper {
     @Override
     public boolean test8() {
         Page<User> page = new Page<>(1, 1);
-        List<User> orderPage = userMapper.queryPageList(page,"1");
-//        List<User> orders = orderPage.getRecords();
-//        long total = orderPage.getTotal();
+        IPage<User> orderPage = userMapper.queryPageList(page,"1");
+        List<User> orders = orderPage.getRecords();
+        long total = orderPage.getTotal();
         return false;
     }
 

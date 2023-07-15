@@ -66,13 +66,19 @@
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.5.2</version>
+            <version>3.4.2</version>
         </dependency>
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>2.3.1</version>
         </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>com.baomidou</groupId>-->
+<!--            <artifactId>mybatis-plus</artifactId>-->
+<!--            <version>3.5.2</version>-->
+<!--        </dependency>-->
 <!--        &lt;!&ndash;MyBatis 分页插件: MyBatis PageHelper&ndash;&gt;-->
 <!--        <dependency>-->
 <!--            <groupId>com.github.pagehelper</groupId>-->
@@ -88,6 +94,25 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                    <!--<include>**/*.properties</include>-->
+                    <include>**/*.yml</include>
+                    <include>**/*.ini</include>
+                </includes>
+            </resource>
+        </resources>
 <!--        <resources>-->
 <!--            <resource>-->
 <!--                <directory>src/main/java</directory>-->
