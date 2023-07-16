@@ -15,8 +15,11 @@ import org.springframework.web.bind.annotation.*;
 public class UserController {
     @Autowired
     public IUserService userService;
-    @Value("${mybatis.mapper-locations}")
-    private String mapperLocations;
+//    @Value("${mybatis.mapper-locations}")
+//    private String mapperLocations;
+    @Value("${mybatis-plus.mapper-locations}")
+    private String mybatisplusLocations;
+
     @PostMapping("/Insert")
     public boolean Insert(@RequestBody User user) {
         return  userService.Insert(user);

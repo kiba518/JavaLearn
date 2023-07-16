@@ -2,16 +2,18 @@ package com.example.demo.model;
 
 
 
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
 import javax.validation.constraints.NotEmpty;
 
-
+@TableName("k_user")
 @Data
 public class User {
     private int id;
-    @NotEmpty(message = "姓名不可为空")
     private String name;
+    @TableField("idCard")
     private String idCard;
 
     /**

@@ -14,7 +14,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import java.util.stream.Stream;
 @Log4j2
 @SpringBootApplication
-@ComponentScan({"com.*"})
+//@ComponentScan({"com.*"})
 @EnableSwagger2
 //@EnableTransactionManagement//开启事务，在service上使用@Transactional即可
 @MapperScan("com.example.demo.dao.mapper")
