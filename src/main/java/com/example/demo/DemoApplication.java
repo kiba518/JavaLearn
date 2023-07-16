@@ -14,7 +14,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import java.util.stream.Stream;
 @Log4j2
 @SpringBootApplication
-//@ComponentScan({"com.*"})
+//@ComponentScan({"com.*"}) //轻易不要开启，这个地方会导致mybatis不好使
 @EnableSwagger2
 //@EnableTransactionManagement//开启事务，在service上使用@Transactional即可
 @MapperScan("com.example.demo.dao.mapper")
