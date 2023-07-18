@@ -8,6 +8,50 @@ spring:
     url: jdbc:mysql://localhost/db1
     username: root
     password: 123456
+  application:
+    ## 注册服务名
+    name: admin-demo1
+  ## spring boot admin
+  boot:
+    admin:
+      client:
+        #api-path: instances # #api-path: 默认 instances
+        url: http://127.0.0.1:8511
+        instance:
+          prefer-ip: true # 使用ip注册进来
+
+#  endpoints config
+#management:
+#  endpoint:
+#    health:
+#      show-details: always
+#  endpoints:
+#    enabled-by-default: true
+#    web:
+#      base-path: /actuator
+#      exposure:
+#        include: '*'
+
+#自定义配置信息用于"/actuator/info"读取 http://192.168.1.24:8518/api/actuator/info
+info:
+  name: 老王
+  age: 100
+  phone: 110
+
+#通过下面的配置启用所有的监控端点，默认情况下，这些端点是禁用的；
+#http://192.168.1.24:8518/api/actuator
+#http://192.168.1.24:8518/api/actuator/health
+#通过下面的配置启用所有的监控端点，默认情况下，这些端点是禁用的；
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+
+
 #mybatis-plus
 #mybatis-plus:
 #  # 搜索指定包别名

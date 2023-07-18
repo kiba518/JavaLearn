@@ -1,0 +1,28 @@
+server:
+  port: 8511
+#  servlet:
+#    context-path: /admin
+
+
+#spring:
+#  application:
+#    ## 注册服务名
+#    name: admin-demo1
+
+
+#  endpoint:
+#    health:
+#      show-details: always
+
+## #可以控制哪个不显示
+#management:
+#  endpoint:
+#    health:
+#      show-details: always
+#  ##展示所有信息
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
+#  web.access.username=user
+#  web.access.password=password
