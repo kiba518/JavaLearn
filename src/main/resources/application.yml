@@ -19,18 +19,17 @@ spring:
         url: http://127.0.0.1:8511
         instance:
           prefer-ip: true # 使用ip注册进来
+#thymeleaf 页面的缓存开关，默认 true 开启缓存
+#建议在开发阶段关闭 thymeleaf 页面缓存，目的实时看到页面
+#  thymeleaf:
+#    cache: false
+    #前缀
+#    #thymeleaf 模版前缀,默认可以不写
+#    prefix: classpath:/templates/
+#    #后缀：
+#    #thymeleaf 模版后缀,默认可以不写
+#    suffix: .html
 
-#  endpoints config
-#management:
-#  endpoint:
-#    health:
-#      show-details: always
-#  endpoints:
-#    enabled-by-default: true
-#    web:
-#      base-path: /actuator
-#      exposure:
-#        include: '*'
 
 #自定义配置信息用于"/actuator/info"读取 http://192.168.1.24:8518/api/actuator/info
 info:
@@ -45,6 +44,7 @@ info:
 management:
   endpoints:
     web:
+#      base-path: /actuator
       exposure:
         include: "*"
   endpoint:
