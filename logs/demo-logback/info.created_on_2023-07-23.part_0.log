@@ -1,0 +1,330 @@
+2023-07-23 10:29:13.282  INFO 12424 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 1.8.0_162 on WIN-UUKKUIIMATR with PID 12424 (C:\code\github\JavaLearn\JavaLearn\target\classes started by Administrator in C:\code\github\JavaLearn\JavaLearn)
+2023-07-23 10:29:13.301  INFO 12424 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2023-07-23 10:29:14.947  WARN 12424 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.example.demo.dao.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2023-07-23 10:29:14.949  WARN 12424 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo.dao.mapper]' package. Please check your configuration.
+2023-07-23 10:29:15.458  INFO 12424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8518 (http)
+2023-07-23 10:29:15.474  INFO 12424 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-23 10:29:15.475  INFO 12424 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-07-23 10:29:15.830  INFO 12424 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-07-23 10:29:15.831  INFO 12424 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2432 ms
+2023-07-23 10:29:17.268  INFO 12424 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2023-07-23 10:29:17.352  INFO 12424 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-07-23 10:29:17.512  INFO 12424 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-23 10:29:17.772  INFO 12424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8518 (http) with context path '/api'
+2023-07-23 10:29:17.774  INFO 12424 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-07-23 10:29:17.794  INFO 12424 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-07-23 10:29:17.846  INFO 12424 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-07-23 10:29:17.988  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: Test1UsingGET_1
+2023-07-23 10:29:17.990  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: Test2UsingGET_1
+2023-07-23 10:29:17.993  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_1
+2023-07-23 10:29:17.994  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_1
+2023-07-23 10:29:18.002  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_2
+2023-07-23 10:29:18.003  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_2
+2023-07-23 10:29:18.010  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_3
+2023-07-23 10:29:18.011  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test3UsingPOST_1
+2023-07-23 10:29:18.016  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_3
+2023-07-23 10:29:18.021  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2023-07-23 10:29:18.023  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2023-07-23 10:29:18.024  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2023-07-23 10:29:18.026  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2023-07-23 10:29:18.027  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2023-07-23 10:29:18.028  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2023-07-23 10:29:18.030  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2023-07-23 10:29:18.032  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2023-07-23 10:29:18.033  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2023-07-23 10:29:18.034  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2023-07-23 10:29:18.035  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2023-07-23 10:29:18.036  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2023-07-23 10:29:18.038  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2023-07-23 10:29:18.039  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2023-07-23 10:29:18.040  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2023-07-23 10:29:18.041  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2023-07-23 10:29:18.042  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2023-07-23 10:29:18.043  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2023-07-23 10:29:18.045  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2023-07-23 10:29:18.046  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingGET_1
+2023-07-23 10:29:18.069  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_4
+2023-07-23 10:29:18.070  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_4
+2023-07-23 10:29:18.070  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test3UsingGET_1
+2023-07-23 10:29:18.075  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: DeleteUsingGET_1
+2023-07-23 10:29:18.076  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: InsertUsingPOST_1
+2023-07-23 10:29:18.077  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: UpdateUsingPOST_1
+2023-07-23 10:29:18.077  INFO 12424 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_5
+2023-07-23 10:29:18.129  INFO 12424 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 5.612 seconds (JVM running for 7.014)
+2023-07-23 10:29:18.140  INFO 12424 --- [main] com.example.demo.DemoApplication         : --------------------------------------------------------------------------------------------------------------------
+2023-07-23 10:29:18.143  INFO 12424 --- [main] com.example.demo.DemoApplication         : -----------------启动模块:/api
+2023-07-23 10:29:18.143  INFO 12424 --- [main] com.example.demo.DemoApplication         : -----------------启动端口:8518
+2023-07-23 10:29:18.143  INFO 12424 --- [main] com.example.demo.DemoApplication         : -----------------api地址:http://localhost:8518/api
+2023-07-23 10:29:18.143  INFO 12424 --- [main] com.example.demo.DemoApplication         : -----------------swagger-ui:http://localhost:8518/api/swagger-ui.html
+2023-07-23 10:29:18.143  INFO 12424 --- [main] com.example.demo.DemoApplication         : -----------------api地址:http://localhost:8518/api/druid/login.html
+2023-07-23 10:29:18.690  INFO 12424 --- [RMI TCP Connection(5)-192.168.1.24] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-23 10:29:18.691  INFO 12424 --- [RMI TCP Connection(5)-192.168.1.24] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-23 10:29:18.694  INFO 12424 --- [RMI TCP Connection(5)-192.168.1.24] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-07-23 10:29:19.201  WARN 12424 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=admin-demo1, managementUrl=http://192.168.1.24:8518/api/actuator, healthUrl=http://192.168.1.24:8518/api/actuator/health, serviceUrl=http://192.168.1.24:8518/api) at spring-boot-admin ([http://127.0.0.1:8511/instances]): I/O error on POST request for "http://127.0.0.1:8511/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2023-07-23 10:29:19.531  INFO 12424 --- [RMI TCP Connection(7)-192.168.1.24] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-07-23 10:31:12.510  INFO 12424 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-07-23 10:31:12.516  INFO 12424 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-07-23 10:36:20.086  INFO 13128 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 1.8.0_162 on WIN-UUKKUIIMATR with PID 13128 (C:\code\github\JavaLearn\JavaLearn\target\classes started by Administrator in C:\code\github\JavaLearn\JavaLearn)
+2023-07-23 10:36:20.090  INFO 13128 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2023-07-23 10:36:21.518  WARN 13128 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.example.demo.dao.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2023-07-23 10:36:21.519  WARN 13128 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo.dao.mapper]' package. Please check your configuration.
+2023-07-23 10:36:21.947  INFO 13128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8518 (http)
+2023-07-23 10:36:21.957  INFO 13128 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-23 10:36:21.957  INFO 13128 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-07-23 10:36:22.089  INFO 13128 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-07-23 10:36:22.090  INFO 13128 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1940 ms
+2023-07-23 10:36:23.539  INFO 13128 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2023-07-23 10:36:23.608  INFO 13128 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-07-23 10:36:23.789  INFO 13128 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-23 10:36:24.082  INFO 13128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8518 (http) with context path '/api'
+2023-07-23 10:36:24.085  INFO 13128 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-07-23 10:36:24.107  INFO 13128 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-07-23 10:36:24.179  INFO 13128 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-07-23 10:36:24.349  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: Test1UsingGET_1
+2023-07-23 10:36:24.351  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: Test2UsingGET_1
+2023-07-23 10:36:24.354  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_1
+2023-07-23 10:36:24.356  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_1
+2023-07-23 10:36:24.363  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_2
+2023-07-23 10:36:24.364  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_2
+2023-07-23 10:36:24.372  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_3
+2023-07-23 10:36:24.375  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test3UsingPOST_1
+2023-07-23 10:36:24.383  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_3
+2023-07-23 10:36:24.388  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2023-07-23 10:36:24.389  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2023-07-23 10:36:24.390  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2023-07-23 10:36:24.391  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2023-07-23 10:36:24.392  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2023-07-23 10:36:24.393  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2023-07-23 10:36:24.394  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2023-07-23 10:36:24.395  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2023-07-23 10:36:24.396  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2023-07-23 10:36:24.397  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2023-07-23 10:36:24.399  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2023-07-23 10:36:24.400  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2023-07-23 10:36:24.401  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2023-07-23 10:36:24.402  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2023-07-23 10:36:24.403  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2023-07-23 10:36:24.404  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2023-07-23 10:36:24.405  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2023-07-23 10:36:24.406  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2023-07-23 10:36:24.407  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2023-07-23 10:36:24.409  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingGET_1
+2023-07-23 10:36:24.430  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_4
+2023-07-23 10:36:24.431  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_4
+2023-07-23 10:36:24.432  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test3UsingGET_1
+2023-07-23 10:36:24.436  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: DeleteUsingGET_1
+2023-07-23 10:36:24.437  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: InsertUsingPOST_1
+2023-07-23 10:36:24.438  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: UpdateUsingPOST_1
+2023-07-23 10:36:24.439  INFO 13128 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_5
+2023-07-23 10:36:24.470  INFO 13128 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 5.015 seconds (JVM running for 6.564)
+2023-07-23 10:36:24.480  INFO 13128 --- [main] com.example.demo.DemoApplication         : --------------------------------------------------------------------------------------------------------------------
+2023-07-23 10:36:24.483  INFO 13128 --- [main] com.example.demo.DemoApplication         : -----------------启动模块:/api
+2023-07-23 10:36:24.483  INFO 13128 --- [main] com.example.demo.DemoApplication         : -----------------启动端口:8518
+2023-07-23 10:36:24.483  INFO 13128 --- [main] com.example.demo.DemoApplication         : -----------------api地址:http://localhost:8518/api
+2023-07-23 10:36:24.483  INFO 13128 --- [main] com.example.demo.DemoApplication         : -----------------swagger-ui:http://localhost:8518/api/swagger-ui.html
+2023-07-23 10:36:24.483  INFO 13128 --- [main] com.example.demo.DemoApplication         : -----------------api地址:http://localhost:8518/api/druid/login.html
+2023-07-23 10:36:25.080  INFO 13128 --- [RMI TCP Connection(5)-192.168.1.24] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-23 10:36:25.080  INFO 13128 --- [RMI TCP Connection(5)-192.168.1.24] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-23 10:36:25.083  INFO 13128 --- [RMI TCP Connection(5)-192.168.1.24] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-23 10:36:25.545  WARN 13128 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=admin-demo1, managementUrl=http://192.168.1.24:8518/api/actuator, healthUrl=http://192.168.1.24:8518/api/actuator/health, serviceUrl=http://192.168.1.24:8518/api) at spring-boot-admin ([http://127.0.0.1:8511/instances]): I/O error on POST request for "http://127.0.0.1:8511/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2023-07-23 10:36:25.664  INFO 13128 --- [RMI TCP Connection(4)-192.168.1.24] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-07-23 10:38:12.092  INFO 13128 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-07-23 10:38:12.097  INFO 13128 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-07-23 10:38:16.988  INFO 14240 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 1.8.0_162 on WIN-UUKKUIIMATR with PID 14240 (C:\code\github\JavaLearn\JavaLearn\target\classes started by Administrator in C:\code\github\JavaLearn\JavaLearn)
+2023-07-23 10:38:16.991  INFO 14240 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2023-07-23 10:38:18.404  WARN 14240 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.example.demo.dao.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2023-07-23 10:38:18.405  WARN 14240 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo.dao.mapper]' package. Please check your configuration.
+2023-07-23 10:38:18.869  INFO 14240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8518 (http)
+2023-07-23 10:38:18.878  INFO 14240 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-23 10:38:18.879  INFO 14240 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-07-23 10:38:18.994  INFO 14240 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-07-23 10:38:18.995  INFO 14240 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1945 ms
+2023-07-23 10:38:20.323  INFO 14240 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2023-07-23 10:38:20.396  INFO 14240 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-07-23 10:38:20.549  INFO 14240 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-23 10:38:20.843  INFO 14240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8518 (http) with context path '/api'
+2023-07-23 10:38:20.845  INFO 14240 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-07-23 10:38:20.866  INFO 14240 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-07-23 10:38:20.922  INFO 14240 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-07-23 10:38:21.077  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: Test1UsingGET_1
+2023-07-23 10:38:21.078  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: Test2UsingGET_1
+2023-07-23 10:38:21.082  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_1
+2023-07-23 10:38:21.083  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_1
+2023-07-23 10:38:21.092  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_2
+2023-07-23 10:38:21.093  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_2
+2023-07-23 10:38:21.102  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_3
+2023-07-23 10:38:21.104  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test3UsingPOST_1
+2023-07-23 10:38:21.109  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_3
+2023-07-23 10:38:21.115  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2023-07-23 10:38:21.116  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2023-07-23 10:38:21.117  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2023-07-23 10:38:21.118  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2023-07-23 10:38:21.119  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2023-07-23 10:38:21.120  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2023-07-23 10:38:21.121  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2023-07-23 10:38:21.122  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2023-07-23 10:38:21.123  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2023-07-23 10:38:21.124  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2023-07-23 10:38:21.125  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2023-07-23 10:38:21.126  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2023-07-23 10:38:21.128  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2023-07-23 10:38:21.129  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2023-07-23 10:38:21.130  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2023-07-23 10:38:21.131  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2023-07-23 10:38:21.132  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2023-07-23 10:38:21.133  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2023-07-23 10:38:21.134  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2023-07-23 10:38:21.136  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingGET_1
+2023-07-23 10:38:21.158  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_4
+2023-07-23 10:38:21.159  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_4
+2023-07-23 10:38:21.160  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test3UsingGET_1
+2023-07-23 10:38:21.164  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: DeleteUsingGET_1
+2023-07-23 10:38:21.165  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: InsertUsingPOST_1
+2023-07-23 10:38:21.166  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: UpdateUsingPOST_1
+2023-07-23 10:38:21.166  INFO 14240 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_5
+2023-07-23 10:38:21.196  INFO 14240 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 4.927 seconds (JVM running for 6.561)
+2023-07-23 10:38:21.209  INFO 14240 --- [main] com.example.demo.DemoApplication         : --------------------------------------------------------------------------------------------------------------------
+2023-07-23 10:38:21.216  INFO 14240 --- [main] com.example.demo.DemoApplication         : -----------------启动模块:/api
+2023-07-23 10:38:21.216  INFO 14240 --- [main] com.example.demo.DemoApplication         : -----------------启动端口:8518
+2023-07-23 10:38:21.217  INFO 14240 --- [main] com.example.demo.DemoApplication         : -----------------api地址:http://localhost:8518/api
+2023-07-23 10:38:21.217  INFO 14240 --- [main] com.example.demo.DemoApplication         : -----------------swagger-ui:http://localhost:8518/api/swagger-ui.html
+2023-07-23 10:38:21.217  INFO 14240 --- [main] com.example.demo.DemoApplication         : -----------------api地址:http://localhost:8518/api/druid/login.html
+2023-07-23 10:38:22.008  INFO 14240 --- [RMI TCP Connection(3)-192.168.1.24] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-23 10:38:22.009  INFO 14240 --- [RMI TCP Connection(3)-192.168.1.24] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-23 10:38:22.011  INFO 14240 --- [RMI TCP Connection(3)-192.168.1.24] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-23 10:38:22.220  INFO 14240 --- [RMI TCP Connection(1)-192.168.1.24] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-07-23 10:38:22.373  WARN 14240 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=admin-demo1, managementUrl=http://192.168.1.24:8518/api/actuator, healthUrl=http://192.168.1.24:8518/api/actuator/health, serviceUrl=http://192.168.1.24:8518/api) at spring-boot-admin ([http://127.0.0.1:8511/instances]): I/O error on POST request for "http://127.0.0.1:8511/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2023-07-23 10:41:26.875  INFO 14240 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-07-23 10:41:26.880  INFO 14240 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-07-23 10:42:09.223  INFO 15364 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 1.8.0_162 on WIN-UUKKUIIMATR with PID 15364 (C:\code\github\JavaLearn\JavaLearn\target\classes started by Administrator in C:\code\github\JavaLearn\JavaLearn)
+2023-07-23 10:42:09.236  INFO 15364 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2023-07-23 10:42:10.679  WARN 15364 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.example.demo.dao.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2023-07-23 10:42:10.680  WARN 15364 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo.dao.mapper]' package. Please check your configuration.
+2023-07-23 10:42:11.159  INFO 15364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8518 (http)
+2023-07-23 10:42:11.169  INFO 15364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-23 10:42:11.169  INFO 15364 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-07-23 10:42:11.286  INFO 15364 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-07-23 10:42:11.287  INFO 15364 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1974 ms
+2023-07-23 10:42:12.599  INFO 15364 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2023-07-23 10:42:12.671  INFO 15364 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-07-23 10:42:12.840  INFO 15364 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-23 10:42:13.170  INFO 15364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8518 (http) with context path '/api'
+2023-07-23 10:42:13.172  INFO 15364 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-07-23 10:42:13.192  INFO 15364 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-07-23 10:42:13.249  INFO 15364 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-07-23 10:42:13.404  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: Test1UsingGET_1
+2023-07-23 10:42:13.405  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: Test2UsingGET_1
+2023-07-23 10:42:13.409  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_1
+2023-07-23 10:42:13.410  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_1
+2023-07-23 10:42:13.417  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_2
+2023-07-23 10:42:13.419  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_2
+2023-07-23 10:42:13.427  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_3
+2023-07-23 10:42:13.428  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test3UsingPOST_1
+2023-07-23 10:42:13.435  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_3
+2023-07-23 10:42:13.440  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2023-07-23 10:42:13.442  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2023-07-23 10:42:13.443  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2023-07-23 10:42:13.444  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2023-07-23 10:42:13.446  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2023-07-23 10:42:13.447  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2023-07-23 10:42:13.448  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2023-07-23 10:42:13.450  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2023-07-23 10:42:13.451  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2023-07-23 10:42:13.452  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2023-07-23 10:42:13.454  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2023-07-23 10:42:13.455  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2023-07-23 10:42:13.456  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2023-07-23 10:42:13.458  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2023-07-23 10:42:13.459  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2023-07-23 10:42:13.460  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2023-07-23 10:42:13.462  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2023-07-23 10:42:13.463  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2023-07-23 10:42:13.464  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2023-07-23 10:42:13.466  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingGET_1
+2023-07-23 10:42:13.492  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_4
+2023-07-23 10:42:13.493  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_4
+2023-07-23 10:42:13.494  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test3UsingGET_1
+2023-07-23 10:42:13.499  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: DeleteUsingGET_1
+2023-07-23 10:42:13.500  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: InsertUsingPOST_1
+2023-07-23 10:42:13.501  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: UpdateUsingPOST_1
+2023-07-23 10:42:13.502  INFO 15364 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_5
+2023-07-23 10:42:13.544  INFO 15364 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 5.033 seconds (JVM running for 6.703)
+2023-07-23 10:42:13.568  INFO 15364 --- [main] com.example.demo.DemoApplication         : --------------------------------------------------------------------------------------------------------------------
+2023-07-23 10:42:13.573  INFO 15364 --- [main] com.example.demo.DemoApplication         : -----------------启动模块:/api
+2023-07-23 10:42:13.573  INFO 15364 --- [main] com.example.demo.DemoApplication         : -----------------启动端口:8518
+2023-07-23 10:42:13.574  INFO 15364 --- [main] com.example.demo.DemoApplication         : -----------------api地址:http://localhost:8518/api
+2023-07-23 10:42:13.574  INFO 15364 --- [main] com.example.demo.DemoApplication         : -----------------swagger-ui:http://localhost:8518/api/swagger-ui.html
+2023-07-23 10:42:13.574  INFO 15364 --- [main] com.example.demo.DemoApplication         : -----------------api地址:http://localhost:8518/api/druid/login.html
+2023-07-23 10:42:14.020  INFO 15364 --- [RMI TCP Connection(4)-192.168.1.24] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-23 10:42:14.020  INFO 15364 --- [RMI TCP Connection(4)-192.168.1.24] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-23 10:42:14.022  INFO 15364 --- [RMI TCP Connection(4)-192.168.1.24] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-23 10:42:14.558  INFO 15364 --- [RMI TCP Connection(3)-192.168.1.24] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-07-23 10:42:14.752  WARN 15364 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=admin-demo1, managementUrl=http://192.168.1.24:8518/api/actuator, healthUrl=http://192.168.1.24:8518/api/actuator/health, serviceUrl=http://192.168.1.24:8518/api) at spring-boot-admin ([http://127.0.0.1:8511/instances]): I/O error on POST request for "http://127.0.0.1:8511/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2023-07-23 10:43:46.405  INFO 15364 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-07-23 10:43:46.410  INFO 15364 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-07-23 10:43:51.479  INFO 8540 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 1.8.0_162 on WIN-UUKKUIIMATR with PID 8540 (C:\code\github\JavaLearn\JavaLearn\target\classes started by Administrator in C:\code\github\JavaLearn\JavaLearn)
+2023-07-23 10:43:51.481  INFO 8540 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2023-07-23 10:43:52.783  WARN 8540 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.example.demo.dao.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2023-07-23 10:43:52.783  WARN 8540 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo.dao.mapper]' package. Please check your configuration.
+2023-07-23 10:43:53.226  INFO 8540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8518 (http)
+2023-07-23 10:43:53.235  INFO 8540 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-23 10:43:53.236  INFO 8540 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-07-23 10:43:53.346  INFO 8540 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2023-07-23 10:43:53.346  INFO 8540 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1808 ms
+2023-07-23 10:43:54.576  INFO 8540 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2023-07-23 10:43:54.643  INFO 8540 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-07-23 10:43:54.788  INFO 8540 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-23 10:43:55.061  INFO 8540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8518 (http) with context path '/api'
+2023-07-23 10:43:55.062  INFO 8540 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-07-23 10:43:55.081  INFO 8540 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-07-23 10:43:55.131  INFO 8540 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-07-23 10:43:55.268  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: Test1UsingGET_1
+2023-07-23 10:43:55.270  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: Test2UsingGET_1
+2023-07-23 10:43:55.273  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_1
+2023-07-23 10:43:55.274  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_1
+2023-07-23 10:43:55.281  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_2
+2023-07-23 10:43:55.283  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_2
+2023-07-23 10:43:55.289  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_3
+2023-07-23 10:43:55.290  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test3UsingPOST_1
+2023-07-23 10:43:55.295  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_3
+2023-07-23 10:43:55.300  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_1
+2023-07-23 10:43:55.301  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingDELETE_1
+2023-07-23 10:43:55.302  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_2
+2023-07-23 10:43:55.303  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_3
+2023-07-23 10:43:55.304  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_4
+2023-07-23 10:43:55.305  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_5
+2023-07-23 10:43:55.306  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_6
+2023-07-23 10:43:55.308  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_7
+2023-07-23 10:43:55.309  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_8
+2023-07-23 10:43:55.310  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_9
+2023-07-23 10:43:55.311  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_10
+2023-07-23 10:43:55.312  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_11
+2023-07-23 10:43:55.312  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_12
+2023-07-23 10:43:55.314  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_13
+2023-07-23 10:43:55.316  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_14
+2023-07-23 10:43:55.317  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_15
+2023-07-23 10:43:55.318  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_16
+2023-07-23 10:43:55.319  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_17
+2023-07-23 10:43:55.321  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: handleUsingGET_18
+2023-07-23 10:43:55.322  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingGET_1
+2023-07-23 10:43:55.343  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_4
+2023-07-23 10:43:55.344  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test2UsingGET_4
+2023-07-23 10:43:55.345  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test3UsingGET_1
+2023-07-23 10:43:55.349  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: DeleteUsingGET_1
+2023-07-23 10:43:55.350  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: InsertUsingPOST_1
+2023-07-23 10:43:55.351  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: UpdateUsingPOST_1
+2023-07-23 10:43:55.351  INFO 8540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: test1UsingGET_5
+2023-07-23 10:43:55.380  INFO 8540 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 4.757 seconds (JVM running for 6.35)
+2023-07-23 10:43:55.390  INFO 8540 --- [main] com.example.demo.DemoApplication         : --------------------------------------------------------------------------------------------------------------------
+2023-07-23 10:43:55.393  INFO 8540 --- [main] com.example.demo.DemoApplication         : -----------------启动模块:/api
+2023-07-23 10:43:55.393  INFO 8540 --- [main] com.example.demo.DemoApplication         : -----------------启动端口:8518
+2023-07-23 10:43:55.393  INFO 8540 --- [main] com.example.demo.DemoApplication         : -----------------api地址:http://localhost:8518/api
+2023-07-23 10:43:55.393  INFO 8540 --- [main] com.example.demo.DemoApplication         : -----------------swagger-ui:http://localhost:8518/api/swagger-ui.html
+2023-07-23 10:43:55.394  INFO 8540 --- [main] com.example.demo.DemoApplication         : -----------------api地址:http://localhost:8518/api/druid/login.html
+2023-07-23 10:43:55.703  INFO 8540 --- [RMI TCP Connection(2)-192.168.1.24] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-23 10:43:55.704  INFO 8540 --- [RMI TCP Connection(2)-192.168.1.24] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-23 10:43:55.706  INFO 8540 --- [RMI TCP Connection(2)-192.168.1.24] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-07-23 10:43:56.215  INFO 8540 --- [RMI TCP Connection(1)-192.168.1.24] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-07-23 10:43:56.450  WARN 8540 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=admin-demo1, managementUrl=http://192.168.1.24:8518/api/actuator, healthUrl=http://192.168.1.24:8518/api/actuator/health, serviceUrl=http://192.168.1.24:8518/api) at spring-boot-admin ([http://127.0.0.1:8511/instances]): I/O error on POST request for "http://127.0.0.1:8511/instances": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect. Further attempts are logged on DEBUG level
+2023-07-23 10:47:22.930  INFO 8540 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-07-23 10:47:22.935  INFO 8540 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

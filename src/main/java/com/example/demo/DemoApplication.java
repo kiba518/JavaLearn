@@ -34,6 +34,8 @@ public class DemoApplication {
         log.info("-----------------api地址:{}", "http://localhost:" + env.getProperty("server.port") + env.getProperty("server.servlet.context-path"));
         log.info("-----------------swagger-ui:{}", "http://localhost:" + env.getProperty("server.port")+ env.getProperty("server.servlet.context-path")+"/swagger-ui.html");
 //        log.info("-----------------swagger-knife4j-ui:{}", "http://localhost:" + env.getProperty("server.port")+ env.getProperty("server.servlet.context-path")+"/doc.html");
+        log.info("-----------------api地址:{}", "http://localhost:" + env.getProperty("server.port") + env.getProperty("server.servlet.context-path")+"/druid/login.html");
+
 
 //        log.info("-----------------当前加载的bean");
 //        log.info("--------------------------------------------------------------------------------------------------------------------");

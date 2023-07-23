@@ -8,6 +8,25 @@ spring:
     url: jdbc:mysql://localhost/db1
     username: root
     password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource # 自定义数据源 springboot2.0以上默认使用com.zaxxer.hikari.HikariDataSource数据源
+    #druid 数据源专有配置
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    #配置监控统计拦截的filters，stat:监控统计、log4j：日志记录、wall：防御sql注入
+    filters: stat,wall,log4j
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobalDataSourceStat: true
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMilis=500
+
   application:
     ## 注册服务名
     name: admin-demo1
@@ -82,7 +101,8 @@ mybatis-plus:
     map-underscore-to-camel-case: true
     cache-enabled: false
     default-enum-type-handler: org.apache.ibatis.type.EnumOrdinalTypeHandler
-
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #打印sql
+    logImpl: org.apache.ibatis.logging.slf4j.Slf4jImpl # 默认输出到日志文件
 
 ## mybatis
 #mybatis:
@@ -98,3 +118,7 @@ mybatis-plus:
 #    db-config:
 #      id-type: auto
 #    banner: true
+#logging:
+#  file:
+#    name: c:/test.log
+#  config: classpath:log4j2.xml
